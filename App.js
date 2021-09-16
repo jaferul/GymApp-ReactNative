@@ -7,9 +7,10 @@ import Music from './screens/music';
 import Progress  from './screens/progress';
 import Home from './screens/home';
 
+
 export default function App() {
   return (
-    <View style={styles.container}>
+    <View style = {styles.container}>
       <Home />
     </View>
   );
@@ -17,9 +18,8 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
+    //flexDirection: 'row',
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
 });
